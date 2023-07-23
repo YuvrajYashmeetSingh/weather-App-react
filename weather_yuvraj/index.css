@@ -1,0 +1,400 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+#root{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+background-color: grey;
+height: 100vh;
+}
+.main
+{
+    height: 700px;
+    width: 600px;
+    border: none;
+    background-color:white;
+    border-radius: 30px;
+}
+.input{
+    text-align: center;
+
+}
+
+input{
+    width: 400px;outline: none;
+    margin:20px 0px 20px 20px;
+    border:2px solid grey;
+height: 30px;
+border-radius: 10px;
+text-align: center;
+color: grey;font-size: 20px;
+text-transform: capitalize;
+}
+
+.img{
+    width: 600px;
+    height: 200px;
+
+text-align: center;
+}
+button{
+    width: 50px;
+    
+    height: 30px;
+    border: 2px solid grey;
+    color: rgb(99, 98, 98);
+  background-color: white;
+  border-radius: 20px;margin-left: 10px;
+}button img{
+    width:15px;
+    
+}
+
+.weather{
+    width: 600px;
+    display: flex;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+  
+}
+.dae{
+    display: flex;
+    width: 200px;
+    text-align: center;
+    margin-left: 15px;
+}
+.dae h3{
+    margin: 5px;
+    text-align: center;
+}
+.temp{
+    width: 180px;height: 150px;
+    color: white;
+    background-color: rgb(74, 165, 165);
+    padding: 20px;
+    font-size: 20px;  font-weight:500;
+    text-align: center;
+}
+.county{
+    width: 220px;
+    height: 150px;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    text-align: center; padding: 30px;
+}
+
+h5{
+    font-size: 12px;
+    margin: 4px;
+}.time{
+    color: white;
+    background-color:skyblue;
+    width: 200px;height: 150px;
+    text-align: center; padding: 20px;
+    
+}
+.kam{
+    text-transform: capitalize;
+   
+    font-family: 'Roboto Mono', monospace;
+    width: 600px;
+    display: flex;
+    height: 130px;
+    background-color: rgb(148, 221, 148);
+    color:white; padding: 10px;
+}.box0{
+    width: 90px;
+    text-align: center;
+}
+.box1{
+    width: 120px;
+    text-align: center;
+}
+.box2{
+    width: 120px;
+    text-align: center;
+}
+.box3{
+    width: 120px;
+    text-align: center;
+}
+.box4{
+    width: 120px;text-align: center;
+}
+@media (max-width:500px) {
+    
+    *{padding: 0;margin: 0;box-sizing: border-box;}
+    body{background-color: antiquewhite;}
+    #root{
+       margin-top: 20vw;
+    background-color:antiquewhite;
+   
+    }
+
+    .main
+{ padding-left: 8vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+    width: 100vw;
+    
+    background-color: antiquewhite;height:100vh;
+    
+}
+.input{
+    text-align: center;
+
+}
+
+input{
+    width: 55vw;outline: none;
+ 
+    border:2px solid grey;
+height: 30px;
+border-radius: 10px;
+text-align: center;
+color: grey;font-size: 20px;
+text-transform: capitalize;
+}
+
+.img{
+    
+    width: 100vw;
+    height: 60vw;margin-top: 10vw;
+text-align: center;margin-bottom: -10vw;
+}
+.img img{
+    width: 200px;
+}
+button{
+    width: 50px;
+    
+    height: 30px;
+    border: 2px solid grey;
+    color: rgb(99, 98, 98);
+  background-color: white;
+  border-radius: 20px;margin-left: 10px;
+}button img{
+    width:15px;
+    
+}
+
+.weather{
+   
+    width: 100vw;
+    display: flex;
+    margin-top: 20vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+  
+}
+.dae{
+    display: flex;
+    width: 33vw;
+    text-align: center;
+    margin-left: 3vw;font-size: 3vw;
+}
+.dae h3{
+    margin: 5px;
+    text-align: center;
+    
+}
+.temp{
+    width: 35vw;height:35vw;
+    color: white;
+    background-color: rgb(74, 165, 165);
+   
+    font-size: 3.5vw;  font-weight:500;
+ 
+}
+.county{
+    width: 35vw;
+    height: 35vw;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    text-align: center; padding: 3vw;
+    font-size: 3.5vw;
+}
+
+h5{
+    font-size: 2.5vw;
+
+}.time{
+    color: white;
+    background-color:skyblue;
+    width: 33vw;height: 35vw;
+    text-align: center; padding: 2vw;font-size: 3.5vw;
+    
+}
+.kam{
+    text-transform: capitalize;
+   
+    font-family: 'Roboto Mono', monospace;
+    width: 100vw;
+    display: flex;
+    height: 28vw;
+    background-color: rgb(148, 221, 148);
+    color:white; padding: 1vw;
+    font-size: 3vw;
+}.box0{
+    width: 18vw;
+    text-align: center;
+}
+.box1{
+    width: 20vw;
+    text-align: center;
+}
+.box2{
+    width: 20vw;
+    text-align: center;
+}
+.box3{
+    width: 20vw;
+    text-align: center;
+}
+.box4{
+    width: 20vw;text-align: center;
+}
+}
+@media (max-height:450px)and (min-height:300px) {
+    
+    *{padding: 0;margin: 0;box-sizing: border-box;}
+    #root{
+      
+    background-color:white;
+   
+    }
+ .main
+{ padding-left: 20vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+    width: 100vw;
+    
+    background-color: white;height:100vh;
+    
+}
+.input{
+    text-align: center;
+
+}
+
+input{
+    width: 55vw;outline: none;
+ 
+    border:2px solid grey;
+height: 30px;
+border-radius: 10px;
+text-align: center;
+color: grey;font-size: 20px;
+text-transform: capitalize;
+}
+
+.img{
+    
+    width: 100vw;
+    height: 60vw;
+text-align: center;
+}
+.img img{
+    width: 150px;margin-bottom: -10vw;
+}
+button{
+    width: 50px;
+    
+    height: 30px;
+    border: 2px solid grey;
+    color: rgb(99, 98, 98);
+  background-color: white;
+  border-radius: 20px;margin-left: 10px;
+}button img{
+    width:15px;
+    
+}
+
+.weather{
+   
+    width: 100vw;
+    display: flex;
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+  
+}
+.dae{
+    display: flex;
+    width: 33vw;
+    text-align: center;
+    margin-left: 12vw;font-size: 1.2vw;
+}
+.dae h3{
+  
+    text-align: center;
+    
+}
+.temp{
+    width: 35vw;height: 12vw;
+    color: white;
+    background-color: rgb(74, 165, 165);
+   padding: .3vw;
+    font-size: 1.5vw;  
+ 
+}
+.county{
+    width: 35vw;
+    height: 12vw;
+    color: white;
+    background-color: rgb(56, 56, 56);
+    text-align: center; padding: .3vw;
+    font-size: 1.5vw;
+}
+
+h5{
+    font-size: 1.2vw;
+
+}.time{
+    color: white;
+    background-color:skyblue;
+    width: 33vw;height: 12vw;
+    text-align: center; padding: .2vw;font-size: 1.5vw;
+    
+}
+.kam{
+    text-transform: capitalize;
+   
+    font-family: 'Roboto Mono', monospace;
+    width: 100vw;
+    display: flex;
+    height: 12vw;
+    background-color: rgb(148, 221, 148);
+    color:white; padding: .2vw;
+    font-size: 1.5vw;
+}.box0{
+    width: 18vw;
+    text-align: center;
+}
+.box1{
+    width: 20vw;
+    text-align: center;
+}
+.box2{
+    width: 20vw;
+    text-align: center;
+}
+.box3{
+    width: 20vw;
+    text-align: center;
+}
+.box4{
+    width: 20vw;text-align: center;
+}
+}
